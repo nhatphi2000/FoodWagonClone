@@ -1,0 +1,76 @@
+
+btn.btn-outline-success{
+    background: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.banner-hero {
+    max-width: 80%;
+    align-items: center;
+
+}
+.price{
+    text-align: center;
+    background-color: #E7ECFF;
+}
+.price >div{
+    margin: auto;
+    max-width: 50%;
+
+}
+.button1{
+    background: #111B47;
+    color: white;
+    border-color: #111B47;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+     
+}
+.button2{
+    background: transparent;
+    color: black;
+    border-color: black;
+    border-width:3px;
+    width: 40%;
+}
+
+.blue-text{
+    color: blue;
+}
+.content{
+    height: 100%;
+    max-height: 100%;
+}
+.bg-hero >img{
+    width: 70%;
+    float: inline-end;
+}
+
+.section-footer{
+    text-align: center;
+}
+footer{
+    background-color: purple;
+    color: white;
+    
+}
+footer>div{
+    max-width: 80%;
+}
+.btn-buy{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    background: black;
+}
+.flex-text{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-text >a{
+    text-decoration: unset;
+    color: rgb(75, 145, 188);
+}

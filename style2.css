@@ -1,0 +1,372 @@
+.navbar > div.container-fluid{
+
+    width: 80%;
+
+}
+.btn-login{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+section.order{
+    background-color: #FFB20E; 
+}
+.findfood{
+    background-color: white;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+#button-addon2{
+    padding: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 20%;
+    background: linear-gradient(to right, #FF7A7A, #F65900);
+    border-color: unset;
+    color: white;
+}
+.input-text{
+    display: flex;
+}
+.input-text >input {
+    margin-right: 5%;
+    width: 70%;
+
+}
+.btn-deli{
+    background: rgba(241, 114, 40, 0.1);
+    color: #F17228;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+    border: unset;
+
+}
+.btn-pick{
+    color: gray;
+    background: none;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+
+}
+
+
+.image-box{
+    position: relative;
+  display: inline-block;
+
+}
+.image-box > img{
+    border-radius: 20px;
+    display: block; /* Giúp loại bỏ khoảng trống dưới cùng của hình ảnh */
+  width: 100%; /* Điều chỉnh theo nhu cầu */
+  height: auto; /* Đảm bảo hình ảnh không bị méo */
+}
+.sale{
+    position: absolute;
+  bottom:  -20px; /* Điều chỉnh vị trí theo nhu cầu */
+  left: 0px; /* Điều chỉnh vị trí theo nhu cầu */
+  background-color:#F17228; /* Màu nền của nhãn giảm giá */
+  color: white; /* Màu chữ */
+  font-size: 30px;
+  padding: 5px 10px; /* Đệm xung quanh chữ */
+  border-radius: 5px; /* Bo góc của nhãn */
+
+}
+
+.days{
+    background: rgba(241, 114, 40, 0.1);
+    color: #F17228;
+    padding: 5px;
+    display: inline;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+
+}
+.itwork{
+    background: linear-gradient(to bottom, rgba(255, 206, 103, 0.22), rgba(253, 237, 202, 0.22));
+}
+
+.itwork >div >h1{
+    color: #F17228;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+}
+.itwork> div.row{
+    max-width: 80%;
+    margin: auto;
+}
+.itwork> div.row > div>h6, p, img{
+    text-align: center;
+} 
+.itwork> div.row > div>img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.popular >div >h1{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    
+
+}
+
+.carousel-inner{
+    display: flex;
+    padding: 1em;
+}
+.carousel-item{
+    margin-right: 0;
+    display: block;
+    flex: 0 0 calc(100%/4);
+}
+.card{
+    margin: 10px;
+    height: 100%;
+}
+.popular{
+    width: 80%;
+    margin: auto;
+}
+.feature{
+    width: 80%;
+    margin: auto;
+
+}
+.logo-content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.star{
+    color: #FFB20E;
+}
+.saleoff{
+    position: absolute;
+    display: flex;
+    gap:10px;
+    top:10px; /* Điều chỉnh vị trí theo nhu cầu */
+    right:30%; /* Điều chỉnh vị trí theo nhu cầu */
+    color: white; /* Màu chữ */
+    font-size: 15px;
+    padding: 5px 10px; /* Đệm xung quanh chữ */
+    border-radius: 5px; /* Bo góc của nhãn */
+}
+.saleoff> div.sale15{
+    background-color: #F17228;
+    padding: 5px;
+    border-radius: 10px;
+    white-space: nowrap;
+    font-weight: bolder;
+
+}
+.saleoff> div.fast{
+    background-color:#FFB20E;
+    padding: 5px;
+    border-radius: 10px;
+    white-space: nowrap;
+    font-weight: bolder;
+
+}
+.nav-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+  }
+.searchbyfood > div{
+    width: 80%;
+    margin: auto;
+   
+}
+.searchbyfood{
+    padding-top: 10px;
+    background-color: #FEFAF1;
+    padding-bottom: 20px;
+}
+.title-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.naviga-span{
+    display: flex;
+    align-items: center;
+}
+.naviga-span>p{
+    margin-bottom: 0;
+    color: #F17228;
+    font-weight: bolder;
+}
+
+.circle-img{
+    text-align: center;
+}
+.circle-img > img{
+    border-radius: 50%;
+    max-width: 170px;
+    height: 170px;
+    margin-bottom: 10px;
+
+}
+
+.gioithieu{
+    background:#FEEFD0;
+    padding-top: 100px;
+}
+.gioithieu>div{
+    width: 70%;
+}
+.white-layout{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.white-layout > div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+.white-layout > div > p{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: start;
+    background: linear-gradient(to right, #FB3C00, #FFB800);
+    -webkit-background-clip: text; /* Thêm cho tương thích với trình duyệt Webkit (Chrome, Safari) */
+    -webkit-text-fill-color: transparent; 
+
+}
+.livetracing{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.installapp{
+    display: flex;
+    align-items: center;
+}
+.imgphone > img{
+    max-width: 100%;
+    height: auto;
+
+}
+.realinstall >h1{
+    text-align: start;
+    color: #F17228;
+
+}
+.realinstall >p{
+    text-align: start;
+
+}
+.prfood > div{
+    width: 80%;
+    padding-top: 100px;
+}
+.dealfood{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+    border-radius: 20px;
+
+}
+.dealfood>div.col-lg-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.dealfood>div.col-lg-4>h1{
+    color: #F17228;
+
+}
+.dealfood>div.col-lg-4>p{
+    text-align: start;
+
+}
+.dealfood>div.col-lg-4>a{
+    background: linear-gradient(to left, #f68308, #FFB800);
+    font-weight: bolder;
+    border-radius: 10px;
+    border: unset;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.dealfood>div.col-lg-4>h1>b{
+    color: black;
+
+}
+.dealfood>div.col-lg-8{
+    margin: 0;
+    padding: 0;
+
+}
+.dealfood>div.col-lg-8 > img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 20px 20px 0;
+
+
+}
+.reverse{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 0 0 20px ;
+
+
+}
+
+.CTA{
+    background-image: url("./img/CTAImage.png");
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.CTA > div{
+    width: 35%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.CTA > div >h1{
+    margin-bottom: 100px;
+    
+}
+.btn-cta{
+    background-color: #F17228;
+    color: white;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border:unset;
+
+}
+footer{
+    background-color: #212121;
+    padding-top: 100px;
+}
+footer>div{
+    width: 80%;
+}
